@@ -144,7 +144,7 @@ jobs:
     steps:
       - name: download archive
         id: download_archive
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: ${{ matrix.download_name }}
           path: ./
